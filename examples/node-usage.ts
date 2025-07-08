@@ -1,4 +1,4 @@
-import { LytDB, NodeStorage } from "../dist";
+import { LytDB, NodeStorage } from "../src";
 
 interface User {
   id: number;
