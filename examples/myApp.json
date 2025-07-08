@@ -1,0 +1,38 @@
+{
+  "tables": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "email": "p9Nw0@example.com",
+        "active": true
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "email": "3dP7o@example.com",
+        "active": false
+      }
+    ],
+    "products": [
+      {
+        "sku": "A123",
+        "name": "Product A",
+        "price": 10.99
+      },
+      {
+        "sku": "B456",
+        "name": "Product B",
+        "price": 19.99
+      }
+    ]
+  },
+  "schemas": {
+    "users": {
+      "name": "users"
+    },
+    "products": {
+      "name": "products"
+    }
+  }
+}

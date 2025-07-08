@@ -1,0 +1,20 @@
+{
+  "name": "lyt-db",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "database",
+    "embedded",
+    "typescript",
+    "in-memory",
+    "local-first"
+  ],
+  "author": "Kasim Lyee",
+  "license": "MIT",
+  "description": "Universal lightweight Typescript embedded database engine"
+}
